@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.rugbyscorekeeper.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cancha1" />
+
+    <Button
+        android:onClick="resetScores"
+        android:text="@string/resetButton"
+        style="@style/customButtonReset" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="@string/local"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/localScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@android:color/background_light"
+                android:textSize="40sp" />
+
+            <Button
+                android:onClick="addFiveForLocal"
+                android:text="@string/tryScore"
+                style="@style/customButton" />
+
+            <Button
+                android:onClick="addTwoForLocal"
+                android:text="@string/goal"
+                style="@style/customButton" />
+
+            <Button
+                android:onClick="addThreeForLocal"
+                android:text="@string/drop"
+                style="@style/customButton" />
+
+            <Button
+                android:onClick="addThreeForLocal"
+                android:text="@string/convPen"
+                style="@style/customButton" />
+
+            <Button
+                android:onClick="addSevenForLocal"
+                android:text="@string/tryPen"
+                style="@style/customButton" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">;
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="@string/visitor"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/visitorScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@android:color/background_light"
+                android:textSize="40sp" />
+
+            <Button
+                android:onClick="addFiveForVisitor"
+                android:text="@string/tryScore"
+                style="@style/customButton" />
+
+            <Button
+                android:onClick="addTwoForVisitor"
+                android:text="@string/goal"
+                style="@style/customButton" />
+
+            <Button
+                android:onClick="addThreeForVisitor"
+                android:text="@string/drop"
+                style="@style/customButton" />
+
+            <Button
+                android:onClick="addThreeForVisitor"
+                android:text="@string/convPen"
+                style="@style/customButton" />
+
+            <Button
+                android:onClick="addSevenForVisitor"
+                android:text="@string/tryPen"
+                style="@style/customButton" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

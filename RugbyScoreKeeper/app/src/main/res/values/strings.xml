@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Rugby Score Keeper</string>
+    <string name="resetButton">RESET</string>
+    <string name="convPen">CONVERTED PENALTY</string>
+    <string name="tryScore">TRY</string>
+    <string name="tryPen">TRY PENALTY</string>
+    <string name="goal">GOAL</string>
+    <string name="drop">DROP</string>
+    <string name="local">Local Team</string>
+    <string name="visitor">Visitor Team</string>
+</resources>

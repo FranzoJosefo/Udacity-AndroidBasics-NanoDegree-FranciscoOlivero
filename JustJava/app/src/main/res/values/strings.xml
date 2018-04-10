@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+    <string name="quantity_text_view" translatable="false">1</string>
+    <string name="qty_title">quantity</string>
+    <string name="top_title">toppings</string>
+    <string name="orderSummary_tittle" translatable="false">order summary</string>
+    <string name="button_text">order</string>
+    <string name="button_inc" translatable="false">+</string>
+    <string name="button_dec" translatable="false">-</string>
+    <string name="name_txtBox">Name</string>
+    <string name="emailSubject">JustJava - Coffee order for <xliff:g id="name" example="Goerge">%s</xliff:g></string>
+    <string name="errorMaxQty">Max quantity of coffee is 100.</string>
+    <string name="errorMinQty">1 Coffee is the minimum quantity.</string>
+    <string name="errorOrder">Error in the order :(\n</string>
+    <string name="errorName">\"Name\" is not valid, add your real name!.</string>
+    <string name="errorNameEmpty">Name field is empty, add your name!.</string>
+    <string name="creamEditView">Whipped Cream</string>
+    <string name="chocolateEditView" translatable="false">Chocolate</string>
+    <string name="summary_name">Name: <xliff:g id="name" example="roberto">%s</xliff:g></string>
+    <string name="summary_hasWhipped">Has Whipped Cream: <xliff:g id="creamBool" example="true">%b</xliff:g></string>
+    <string name="summary_hasChoco">Has Chocolate: <xliff:g id="chocoBool" example="true">%b</xliff:g></string>
+    <string name="summary_Qty">Quantity: <xliff:g id="quantity" example="5">%d</xliff:g></string>
+    <string name="summary_total">Total: $<xliff:g id="price" example="$10">%d</xliff:g></string>
+    <string name="summary_thanks">Thanks!</string>
+</resources>

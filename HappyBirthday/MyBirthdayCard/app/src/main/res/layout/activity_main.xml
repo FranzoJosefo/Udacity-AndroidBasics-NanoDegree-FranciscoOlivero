@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/screen">
+
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_margin="15dp"
+        android:src="@drawable/fondo" />
+
+    <ImageView
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/redframe"
+        android:scaleType="fitXY" />
+
+
+    <TextView
+        android:id="@+id/string_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/card_text_1"
+        android:textSize="60sp"
+        android:gravity="left"
+        android:layout_marginLeft="25dp"
+        android:paddingTop="85dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:textColor="#0b0909" />
+    <TextView
+        android:id="@+id/string_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/string_1"
+        android:text="@string/card_text_2"
+        android:textSize="60sp"
+        android:gravity="right"
+        android:layout_marginTop="-15dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:textColor="#0b0909" />
+
+
+</RelativeLayout>

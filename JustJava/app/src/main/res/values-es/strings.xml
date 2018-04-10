@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Solo Java</string>
+    <string name="button_text">ordenar</string>
+    <string name="creamEditView">Crema Batida</string>
+    <string name="emailSubject">SoloJava - Pedido de cafe para <xliff:g id="name" example="Goerge">%s</xliff:g></string>
+    <string name="errorMaxQty">No podes pedir mas de 100 cafes.</string>
+    <string name="errorMinQty">No podes pedir menos de 1 cafe.</string>
+    <string name="errorName">\"Nombre\" no es valido, ingresa tu nombre!.</string>
+    <string name="errorNameEmpty">No hay nombre, ingresa uno!</string>
+    <string name="errorOrder">Error en la orden :(</string>
+    <string name="name_txtBox">Nombre</string>
+    <string name="qty_title">cantidad</string>
+    <string name="summary_Qty">Cantidad: <xliff:g id="quantity" example="5">%d</xliff:g></string>
+    <string name="summary_hasChoco">Tiene Chocolate: <xliff:g id="chocoBool" example="true">%b</xliff:g></string>
+    <string name="summary_hasWhipped">Tiene Crema Batida: <xliff:g id="creamBool" example="true">%b</xliff:g></string>
+    <string name="summary_thanks">Gracias!</string>
+    <string name="summary_total">Total: $<xliff:g id="price" example="$10">%d</xliff:g></string>
+    <string name="top_title">Ingredientes</string>
+    <string name="summary_name">Nombre: <xliff:g id="name" example="roberto">%s</xliff:g></string>
+</resources>
